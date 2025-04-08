@@ -1,0 +1,81 @@
+/* Сброс отступов и границ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Стили для формы */
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Стили для label */
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Стили для инпутов и текстовых полей */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Focus-эффекты для инпутов */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #28a745;
+    outline: none;
+}
+
+/* Стили для кнопки */
+.contact-form .btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Hover-эффект для кнопки */
+.contact-form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 20px;
+    }
+}
